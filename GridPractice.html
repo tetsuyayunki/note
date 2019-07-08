@@ -1,0 +1,22 @@
+<!DOTYPE html>
+<html>
+    <head>
+        <title>Grid Practice</title>
+        <style>
+            .container {
+                display: grid;
+                grid-template: repeat(5,20%)/repeat(5,20%);
+            }
+            .water {
+                grid-area: 3 / 3 / 4 / 4 ;
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="water"></div>
+
+        </div>
+    </body>
+</html>
